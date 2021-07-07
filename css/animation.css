@@ -1,7 +1,6 @@
 div{
-    width: 100px;
-    height: 100px;
-    background-color: blueviolet;
+    width: 224px;
+    height: 224px;
     position: relative;
     animation-name:example;
     animation-duration:4s;
@@ -9,9 +8,9 @@ div{
     animation-direction: alternate;
 }
 @keyframes example {
-    0%{background-color: red; left:0px;top:0px;}
-    25%{background-color: yellow;left:200px;top:0px;}
-    50%{background-color: green;left:200px;top:200px;}
-    75%{background-color: blue;left:0px;top:200px;}
-    100%{background-color: blueviolet;left:0px;top:0px;}
+    0%{ left:0px;top:0px;}
+    25%{left:200px;top:0px;}
+    50%{left:200px;top:200px;}
+    75%{left:0px;top:200px;}
+    100%{left:0px;top:0px;}
 }
